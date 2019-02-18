@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.TSBaseUserMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.TSBaseUser">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="NVARCHAR" property="id" />
+    <result column="activitiSync" jdbcType="SMALLINT" property="activitisync" />
+    <result column="browser" jdbcType="NVARCHAR" property="browser" />
+    <result column="password" jdbcType="NVARCHAR" property="password" />
+    <result column="realname" jdbcType="NVARCHAR" property="realname" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="userkey" jdbcType="NVARCHAR" property="userkey" />
+    <result column="username" jdbcType="NVARCHAR" property="username" />
+    <result column="departid" jdbcType="NVARCHAR" property="departid" />
+    <result column="delete_flag" jdbcType="SMALLINT" property="deleteFlag" />
+    <result column="safe_password" jdbcType="VARCHAR" property="safePassword" />
+    <result column="user_image" jdbcType="VARCHAR" property="userImage" />
+    <result column="validate_code" jdbcType="VARCHAR" property="validateCode" />
+    <result column="is_validate" jdbcType="INTEGER" property="isValidate" />
+    <result column="idcard" jdbcType="VARCHAR" property="idcard" />
+    <result column="register_type" jdbcType="VARCHAR" property="registerType" />
+    <result column="pyszm" jdbcType="VARCHAR" property="pyszm" />
+    <result column="pyqp" jdbcType="VARCHAR" property="pyqp" />
+    <result column="signature" jdbcType="LONGVARBINARY" property="signature" />
+  </resultMap>
+</mapper>
